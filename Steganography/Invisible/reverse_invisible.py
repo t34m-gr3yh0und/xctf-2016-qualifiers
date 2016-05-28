@@ -1,7 +1,7 @@
 import Image, zlib, struct, sys
 
 
-image_test = Image.open("invisble.png")
+image_test = Image.open("invisible.png")
 pix_test = image_test.load()
 
 code = 'THE_SECRET_KEY_FIND_IT' #len 22

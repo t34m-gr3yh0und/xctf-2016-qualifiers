@@ -30,4 +30,7 @@ for x in range(image_test.size[0]):
 			sys.stdout.write(chr(pix_test[x,y][2]^0x13^0x37))
 
 ```
-
+which will give you the flag
+```
+XCTF{Pr1nc3ss_D1ana_0f_Th3my5c1ra}
+```
